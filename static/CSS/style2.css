@@ -1,0 +1,38 @@
+.header2 {
+    color: #f9e2bd;
+      list-style: none;
+      display: inline-block;
+      position: relative;
+      MARGIN:auto;
+      font-family: 'Orbit', sans-serif;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      vertical-align: -100px;
+  }
+  
+  .header2 h1::after {
+    content:'';
+    height:3px;
+    width:0;
+    background: #f9e2bd;
+    position: absolute;
+    left:0;
+    bottom:0;
+    transition: 0.5s;
+  }
+  
+  .header2 h1:hover::after{
+    width:100%;
+  }
+
+div {
+    text-align: center;
+  }
+
+  .video
+  {
+    border:300px;
+    border-color: aquamarine;
+  }
